@@ -1,0 +1,126 @@
+body{
+	padding: 2.5rem;
+	margin: 2rem;
+	background: linear-gradient(60deg,
+		#888, #888 50%,salmon 50%,salmon
+		);
+}
+html{
+	color: #222;
+}
+h1{
+	font-size: 2rem;
+}
+h2{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	padding: 0.5rem 0;
+	margin-bottom: 1.5rem;
+}
+h3{
+	font-size: 1rem;
+	color: salmon;
+	text-transform: uppercase;
+}
+ul{
+	list-style: none;
+}
+p{
+	line-height: 1.5;
+}
+section * section{
+	margin-top: 2rem;
+}
+li * li{
+	margin-top: 1rem;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.profile{
+	text-align: center;
+}
+.profile p{
+	margin-bottom: 2rem;
+}
+.profile img{
+	border-radius: 50%;
+	width: 15rem;
+	height:15rem;
+}
+.contacts ul{
+	margin-top: 2px;
+}
+.contacts li{
+	text-align: right;
+	text-transform: uppercase;
+	padding:1rem;
+	border-bottom: 1px solid #888;
+}
+
+.skills > ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+}
+.event{
+	display: grid;
+	grid-template-columns: 5ch 1fr
+}
+
+.timecontent{
+	border-left: 1px solid #555;
+	padding-left: 1rem;
+	margin-left: 1rem;
+}
+.resume{
+	display: grid;
+	grid-template-columns: 40% 1fr;
+	grid-gap: 4rem;
+	padding: 2.5rem;
+	background-color: white;
+}
+
+@media only screen and (max-width:600px){
+	.resume{
+		display: block;
+		padding: 1rem;
+	}
+	body{
+		padding: 0.3rem;
+	}
+} 
+/*body{
+	background: #222;
+}
+Sending email using Python
+Automate Tinder (Python)
+Automate Linkedin (Python)
+Air Quality Prediction (Linear Regression) 
+Diabetes Classification (Logistic Regression) 
+Face Recognition (KNN) 
+Dominant Color Extraction (K Means Clustering) 
+Recommendation System (NLP) 
+Word Analogies (Word2Vec)
+Hand Writing Digit Recognition
+#dp{
+	border-radius: 50%;
+}
+.content{
+	display:flex;
+	flex-direction: horizontal;
+	align-content: space-around;
+	
+}
+.details{
+	flex:4;
+}
+.profile{
+	flex:1;
+}
+.profile img{
+	width: 70%;
+}*/
